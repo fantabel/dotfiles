@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=~/dotfiles
-olddir=~/dotfiles_old
+olddir=~/dotfiles/dotfiles_old
 files="bashrc vimrc vim"
 
 echo -n "Creating $olddir for backup of any existing dorfiles in ~ ..."
