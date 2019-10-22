@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/pi/dev/weekly-app/budget-analyser/budget-analyser-model/src/main/java/com/fantabel/budgetanalyser/model'
+let g:netrw_dirhist_2='/home/pi/dev/weekly-app/budget-analyser/budget-analyser-model/src/main/java/com/fantabel/budgetanalyser/model/util'
+let g:netrw_dirhist_3='/home/pi/dev/weekly-app/nas-generator'
+let g:netrw_dirhist_4='/home/pi/dev/weekly-app'
