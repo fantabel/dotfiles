@@ -3,7 +3,6 @@ set hidden
 set ignorecase
 set smartcase
 
-
 set number
 
 set ts=4 sts=4 sw=4 noexpandtab
@@ -21,8 +20,8 @@ highlight NonText guifg=#4a4a59
 highlight SpecialKey guifg=#4a4a59
 set list
 
-filetype indent plugin on
-syntax on
+filetype plugin indent on
+syntax enable
 set guifont=Inconsolata:h12
 
 set cmdheight=2
@@ -32,3 +31,11 @@ let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark="soft"
 colorscheme gruvbox
 set background=dark
+
+set path+=**
+
+let g:netrw_liststyle=3
+let g:netrw_banner = 0
+autocmd FileType netrw setl bufhidden=delete
+set wildignore+=*.class,*.jar
+set wildignore+=/**/target/**
