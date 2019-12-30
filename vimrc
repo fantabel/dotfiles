@@ -11,6 +11,8 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
 nmap <leader>l :set list!<CR>
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+nnoremap ,pom :-1read $HOME/.config/nvim/skeleton/pom.xml<CR>
+nnoremap ,module :-1read $HOME/.config/nvim/skeleton/module.xml<CR>
 
 " let &colorcolumn="80,".join(range(120,999),",")
 call matchadd('ColorColumn', '\%81v.', 100)
