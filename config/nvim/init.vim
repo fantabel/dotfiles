@@ -10,6 +10,7 @@ if dein#load_state('~/.cache/nvim/dein')
 	call dein#add('morhetz/gruvbox')
 	call dein#add('vim-airline/vim-airline')
 	call dein#add('JalaiAmitahl/maven-compiler.vim')
+	call dein#add('janko/vim-test')
 
 	call dein#end()
 	call dein#save_state()
